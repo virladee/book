@@ -1,1 +1,6 @@
+title: VirLaDEE Book
+description: > # VirLaDEE Book.
+baseurl: "/website" # the subpath of your site, e.g. /blog/
+url: "https://virladee.github.io" # the base hostname & protocol for your site
+
 theme: jekyll-theme-tactile
