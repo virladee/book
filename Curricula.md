@@ -1,6 +1,4 @@
----
-title: Curricula
----
+# Curricula
 
-# Introduction
+## Introduction
 
