@@ -2,11 +2,11 @@
 
 ## Examples of Virtual Labs
 
-A. [IVAR](VL/IVAR.md)
+### [IVAR](VL/IVAR.md)
 
-B. [Smart Factory](VL/SmartFactory.md)
+### [Smart Factory](VL/SmartFactory.md)
 
-C. [IINFORM](VL/IINFORM.md)
+### [IINFORM](VL/IINFORM.md)
 
 
 ## Examples of Virtual Lab Activities
