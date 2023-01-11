@@ -3,7 +3,7 @@ description: > # VirLaDEE Book.
 baseurl: "/website" # the subpath of your site, e.g. /blog/
 url: "https://virladee.github.io" # the base hostname & protocol for your site
 
-header: images/Virladee_logo.png
+
 
 # Build settings
 markdown: kramdown
