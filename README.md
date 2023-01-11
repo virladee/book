@@ -1,3 +1,5 @@
+![](images/Virladee_logo.png)
+
 # VirLaDEE Book
 
 ## Introduction
