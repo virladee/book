@@ -1,6 +1,4 @@
-# VirLaDEE Online Book
-
-## Introduction
+# VirLaDEE Book
 
 
 ## Table of Contents
