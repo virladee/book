@@ -1,4 +1,8 @@
-# Curricula
+# Uses of Virtual Labs in Engineering Curricula
 
-## Introduction
 
+## Design of workshops
+
+## Design of pilot courses
+
+## Execution and assessment of pilot courses and workshops
