@@ -1,4 +1,5 @@
-![](images/Virladee_logo.png)
+
+<img src="images/Virladee_logo.png" width="500">
 
 # VirLaDEE Book
 
