@@ -1,3 +1,9 @@
+---
+title: Curricula
+layout: default
+nav_order: 3
+---
+
 # Uses of Virtual Labs in Engineering Curricula
 
 

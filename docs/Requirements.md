@@ -1,3 +1,9 @@
+---
+title: Requirements
+layout: default
+nav_order: 2
+---
+
 # Requirements for the design of virtual labs
 
 ## Funding

@@ -1,11 +1,18 @@
-title:  VirLaDEE Book
-description: > # VirLaDEE Book.
-baseurl: "/website" # the subpath of your site, e.g. /blog/
-url: "https://virladee.github.io" # the base hostname & protocol for your site
+title: VirLaDEE Book
+description: VirLaDEE Book
+theme: just-the-docs
 
+url: https://virladee.github.io/website
 
+aux_links:
+  VirLaDEE site: https://www.sdu.dk/en/forskning/technologyentrepreneurshipandinnovation/researchprojects/virladee
+  
+plugins: 
+    - jekyll-default-layout
 
-# Build settings
-markdown: kramdown
+logo: "/images/Virladee_logo.png"
 
-# theme: jekyll-theme-tactile
+heading_anchors: true
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
