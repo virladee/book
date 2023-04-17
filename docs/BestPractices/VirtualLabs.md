@@ -12,4 +12,4 @@ parent: Best Practices
 
 ## Smart Factory
 
-## IINFORM
+## DARB

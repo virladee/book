@@ -10,7 +10,7 @@ has_toc: false
 
 ## [Examples of Virtual Labs](BestPractices/VirtualLabs)
 
-Three examples of Virtual Labs are provided: [IVAR](BestPractices/VirtualLabs#IVAR) by TalTech, [Smart Factory](BestPractices/VirtualLabs#SmartFactory) by SDU, [IINFORM](BestPractices/VirtualLabs#IINFORM) by CNR-STIIMA.
+Three examples of Virtual Labs are provided: [IVAR](BestPractices/VirtualLabs#IVAR) by TalTech, [Smart Factory](BestPractices/VirtualLabs#SmartFactory) by SDU, [DARB](BestPractices/VirtualLabs#DARB) by CNR-STIIMA.
 
 
 ## [Examples of Virtual Lab Activities](BestPractices/VirtualLabActivities)
