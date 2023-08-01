@@ -8,7 +8,7 @@ has_children: true
 
 # Use Cases of Virtual Lab
 
-Four use cases of Virtual Labs are provided: [IVAR](VL_IVAR) by TalTech, [Smart Factory](VL_SmartFactory) by SDU, and [DARB](VL_DARB) and [PERFORM](VL_PERFORM) by CNR-STIIMA.
+Four use cases of Virtual Labs are provided: [IVAR](UC_IVAR) by TalTech, [Smart Factory](UC_SmartFactory) by SDU, and [DARB](UC_DARB) and [PERFORM](UC_PERFORM) by CNR-STIIMA.
 
 Each lab is described in terms of assets, software resources, virtual lab, access, and possible activities.
 
