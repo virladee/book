@@ -14,12 +14,14 @@ nav_order: 2
 {:toc}
 </details>
 
-# Introduction
+# Requirements for the development and use of virtual labs 
+
+## Introduction
 
 Defining requirements for the successful development and use of the virtual labs is of critical importance. Being aware of the needs of developers and users, before starting with the development itself, helps in reaching a better outcome when building the virtual lab itself. The definition of the requirements for this specific case derives from the process that has been followed throughout the VirLaDEE project. The requirements identified here derive from the material collected from the 3 institutions involved. This material includes the interviews to the lab’s stakeholders (managers, students, external users); the resources contained in the labs and their virtual counterparts; the outcomes of the VirLaDEE project in terms of development process of virtual labs. The approach that was used to define the requirements is inspired on part of the modelling framework “MagicGrid” (Aleksandravičienė & Morkevičius, 2021), used for the modelling of systems in Model-Based Systems Engineering approaches. In this approach, the first step is to define the Stakeholders’ Needs, and later define with a higher level of details all the requirements that derive from those. The definition of the requirements themselves follows the guidelines of INCOSE (Dick et al., 2012). The requirement definition follows a nested structure, with the level of detail increasing together with the levels of definition.
 It is worth noting that the VirLaDEE project allows for increasing levels of virtualisation of the laboratories. Thus, this document describes a set of fundamental requirements that are needed for the initiation of lab virtualisation, but also an additional set of requirements that would be needed for a the development of further capabilities. The latter are not necessary in the initial stage, but are important in the case in which Digital Twins capabilities have to be developed.
 
-# Fundamental requirements
+## Fundamental requirements
 
 The requirements are defined as “Stakeholder Needs”. These are further split into two main categories, as per [Figure 1:](#_bookmark0)
 
@@ -169,7 +171,7 @@ style="width:6.73764in;height:2.00427in" />
 
 <span id="_bookmark4" class="anchor"></span>*Figure 5: Relevance*
 
-# Additional requirements
+## Additional requirements
 
 Additional requirements are defined for the future potential of the
 virtual lab. The virtual lab in fact can potentially be used as a
@@ -221,7 +223,7 @@ style="width:6.73792in;height:2.07823in" />
 <span id="_bookmark5" class="anchor"></span>*Figure 6: Auxiliary
 requirements*
 
-# Requirements distribution
+## Requirements distribution
 
 Not all of the requirements presented above are critical for the
 initial development of virtual labs. The development phases of the
@@ -272,7 +274,7 @@ style="width:9.49052in;height:2.92708in" />
 <span id="_bookmark8" class="anchor"></span>*Figure 9: Additional
 requirement*
 
-# References
+## References
 
 * Aleksandravičienė, A., & Morkevičius, A. (2021). *MagicGrid® BOOK OF
 KNOWLEDGE* (2nd ed.).
