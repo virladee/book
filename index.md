@@ -26,10 +26,11 @@ This book presents the main results of the project that aimed at giving access t
 
 
 ## Table of Contents
-1. [Requirements for the Design of Virtual Labs](docs/Requirements)
-2. [Uses of Virtual Labs in Engineering Curricula](docs/Curricula)
-3. [Best Practices](docs/BestPractices)
-4. [Guidelines for Technical Developments](docs/Guidelines)
+1. [Requirements for the Design and Management of Virtual Labs](docs/Requirements)
+2. [Best practices to include virtual labs in engineering curricula](docs/Curricula)
+3. [Virtual Labs Development](docs/VirtualLabs)
+4. [Virtual Labs Use Cases](docs/UseCases)
+
 
 
 
