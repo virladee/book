@@ -17,9 +17,13 @@ parent: Use Cases
 
 # DARB Lab
 
-The DARB (Disassembly using Autonomous Robot for Batteries) lab,
-previously named IINFORM lab, has been designed and installed by
-CNR-STIIMA and is hosted by University of Brescia.
+The DARB (Disassembly using Autonomous Robot for Batteries) lab aims to investigate innovative ways to enhance the capabilities of robots by combining their perceptual and automation aspects. The goal is to enable robots to perform tasks autonomously with greater flexibility. The lab's primary research focuses on exploring methods to increase the use of robots in manufacturing and the application of artificial intelligence algorithms to enhance the control and motion parameters of industrial robots for improved process quality. Additionally, the lab is developing navigation and calibration algorithms for mobile platforms that can transfer components between work cells without additional handling. They are also working on developing real-time control methods to adapt the robot and its tool to the working conditions measured online.
+The DARB Lab has been designed and installed by CNR-STIIMA and is hosted by University of Brescia.
+
+<img src="images/VL_DARB/DARB_Lab.jpg"
+style="width:6.5in" />
+
+*DARB Lab*
 
 
 ## Lab Assets

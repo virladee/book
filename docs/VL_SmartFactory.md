@@ -48,6 +48,11 @@ the lab. A future development could include a detailed representation
 of the physical components to allow students to operate them
 virtually, with the aid of Virtual Reality.
 
+<img src="images/VL_SmartFactory/SmartFactory_Lab.jpg"
+style="width:6.5in" />
+
+*Smart Factory Lab*
+
 ## Lab Assets
 
 The Smart Factory Lab is currently used for research and educational

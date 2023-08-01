@@ -33,6 +33,11 @@ research group mentioned before, the lab is involved in different
 teaching, application development activities and training for
 industries.
 
+<img src="images/VL_IVAR/IVAR_Lab.jpg"
+style="width:6.5in" />
+
+*IVAR Lab*
+
 ## Lab Assets
 
 The IVAR is hosted in context of the Flexible Manufacturing and

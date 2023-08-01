@@ -21,6 +21,11 @@ The PERFORM (PErsonal Robotics FOR Manufacturing) Lab, located at the premises o
 The Lab has a very advanced state of development, as it benefits from the results and resources of past and ongoing research projects. Most of the projects focus on motion planning and human-robot interaction physics, and the control of the interaction. The updates and adaptations take place on an almost monthly basis, both in terms of layout and research topics, as the team is encouraged to experiment with further developments on the robotic equipment according to their interests.
 
 
+<img src="images/VL_PERFORM/PERFORM_Lab.jpg"
+style="width:3.5in" />
+
+*PERFORM Lab*
+
 ## Lab Assets
 
 The Lab has an area of about 100 m2. It is structured as an open space populated by heavy industrial robots, collaborative robots, and mobile manipulators to create an ecosystem of interacting autonomous machines. In the current layout, the equipment comprises:
