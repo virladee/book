@@ -6,6 +6,9 @@ parent: Use Cases
 ---
 
 {: .no_toc }
+# DARB Lab
+
+{: .no_toc }
 <details open markdown="block">
   <summary>
     Table of contents
@@ -15,12 +18,10 @@ parent: Use Cases
 {:toc}
 </details>
 
-# DARB Lab
-
 The DARB (Disassembly using Autonomous Robot for Batteries) lab aims to investigate innovative ways to enhance the capabilities of robots by combining their perceptual and automation aspects. The goal is to enable robots to perform tasks autonomously with greater flexibility. The lab's primary research focuses on exploring methods to increase the use of robots in manufacturing and the application of artificial intelligence algorithms to enhance the control and motion parameters of industrial robots for improved process quality. Additionally, the lab is developing navigation and calibration algorithms for mobile platforms that can transfer components between work cells without additional handling. They are also working on developing real-time control methods to adapt the robot and its tool to the working conditions measured online.
 The DARB Lab has been designed and installed by CNR-STIIMA and is hosted by University of Brescia.
 
-<img src="images/VL_DARB/DARB_Lab.jpg"
+<img src="images/UC_DARB/DARB_Lab.jpg"
 style="width:6.5in" />
 
 *DARB Lab*
@@ -50,7 +51,7 @@ The complete data formalization of the virtual lab can be found in:
 
 The [DARB virtual lab](http://virladee.github.io/repo/scenes/DARB/DARB.html) can be freely accessed online.
 
-<img src="images/VL_DARB/image3.png"
+<img src="images/UC_DARB/image3.png"
 style="width:6.69306in;height:3.15208in" />
 
 *DARB lab visualized with VEB.js*

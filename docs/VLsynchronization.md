@@ -5,6 +5,9 @@ nav_order: 3
 parent: Virtual Labs
 ---
 
+{:.no_toc}
+# Dual-way synchronization between the physical lab and the virtual lab
+
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -15,7 +18,7 @@ parent: Virtual Labs
 {:toc}
 </details>
 
-# Dual-way synchronization between the physical lab and the virtual lab
+## MQTT architecture
 
 The dual-way synchronization between the physical lab and the virtual
 lab helps complete the full digital twin architecture, going beyond the
@@ -39,8 +42,9 @@ and elaborating the incoming messages.
 <img src="images/VLsynchronization/image2.jpg"
 style="width:6.69306in;height:1.74231in" />
 
-The data formalization adopted for MQTT messages is the same defined in
-O3-A2, but again it may happen that the raw message is serialized
+*MQTT-based architecture for dual-way synchronization*
+
+MQTT messages can adopt the proposed [data formalization](./VLmonitoring#formalization-of-monitoring-data), but it may happen that the raw message is serialized
 according to a different schema, thus needing a preliminary elaboration
 and conversion.
 
@@ -48,7 +52,7 @@ and conversion.
 
 Most of the VR environments enable interactions and animations that can
 be exploited to visualize the current monitoring of assets. After the
-[visualization and navigation of the virtual labs](/docs/VLdevelopment.html#visualization-of-virtual-labs), the VEB.js web application can be exploited also to support the dual-way
+[visualization and navigation of the virtual labs](./VLdevelopment#visualization-of-virtual-labs), the VEB.js web application can be exploited also to support the dual-way
 synchronization thanks to the modularity of the project and the
 flexibility of JavaScript language. Therefore, during the VirLaDEE
 project a novel VEB.js module was designed and implemented, taking
@@ -73,9 +77,12 @@ style="width:1.33562in;height:1.51304in" />
 
 *Animation panel of VEB.js*
 
-The “show” event (cf. [data formalization](/docs/VLmonitoring.html#formalization-of-monitoring-data)) is typically enough
+The “show” event (cf. [data formalization](./VLmonitoring#formalization-of-monitoring-data)) is typically enough
 to support the implementation of the dual-way synchronization, but more
 advanced event type can be employed as well.
+
+An **example of dual-way synchronization** is provided for the [PERFORM Lab](./UC_PERFORM#dual-way-synchronization) use case.
+
 
 
 ## References

@@ -5,6 +5,9 @@ nav_order: 1
 parent: Virtual Labs
 ---
 
+{:.no_toc}
+# Design and Development of Virtual Labs
+
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -14,8 +17,6 @@ parent: Virtual Labs
 - TOC
 {:toc}
 </details>
-
-# Design and Development of Virtual Labs
 
 ## Data Collection and Formalization
 

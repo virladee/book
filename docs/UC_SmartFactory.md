@@ -6,6 +6,9 @@ parent: Use Cases
 ---
 
 {: .no_toc }
+# Smart Factory Lab
+
+{: .no_toc }
 <details open markdown="block">
   <summary>
     Table of contents
@@ -15,7 +18,6 @@ parent: Use Cases
 {:toc}
 </details>
 
-# Smart Factory Lab
 
 The Smart Factory (SF) Lab supports
 research and teaching at the section Technology Entrepreneurship and
@@ -48,7 +50,7 @@ the lab. A future development could include a detailed representation
 of the physical components to allow students to operate them
 virtually, with the aid of Virtual Reality.
 
-<img src="images/VL_SmartFactory/SmartFactory_Lab.jpg"
+<img src="images/UC_SmartFactory/SmartFactory_Lab.jpg"
 style="width:6.5in" />
 
 *Smart Factory Lab*
@@ -136,7 +138,7 @@ The complete data formalization of the virtual lab can be found in:
 
 The [Smart Factory virtual lab](http://virladee.github.io/repo/scenes/SmartFactory/SmartFactory.html) can be freely accessed online.
 
-<img src="images/VL_SmartFactory/image2.png"
+<img src="images/UC_SmartFactory/image2.png"
 style="width:6.69306in;height:3.17431in" />
 
 *Smart Factory lab visualized with VEB.js*

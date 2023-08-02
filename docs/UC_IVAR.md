@@ -5,6 +5,9 @@ nav_order: 1
 parent: Use Cases
 ---
 
+{:.no_toc}
+# IVAR Lab
+
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -14,8 +17,6 @@ parent: Use Cases
 - TOC
 {:toc}
 </details>
-
-# IVAR Lab
 
 The Industrial Augmented and Virtual Reality Laboratory (IVAR) is part
 of the Flexible Manufacturing and Robotic Centre, at TalTech in Tallinn. The
@@ -33,7 +34,7 @@ research group mentioned before, the lab is involved in different
 teaching, application development activities and training for
 industries.
 
-<img src="images/VL_IVAR/IVAR_Lab.jpg"
+<img src="images/UC_IVAR/IVAR_Lab.jpg"
 style="width:6.5in" />
 
 *IVAR Lab*
@@ -108,7 +109,7 @@ The complete data formalization of the virtual lab can be found in:
 
 The [IVAR virtual lab](http://virladee.github.io/repo/scenes/IVAR/IVAR.html) can be freely accessed online.
 
-<img src="images/VL_IVAR/image1.png"
+<img src="images/UC_IVAR/image1.png"
 style="width:6.69306in;height:3.20764in" />
 
 *IVAR lab visualized with VEB.js*

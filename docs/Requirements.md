@@ -4,6 +4,10 @@ layout: default
 nav_order: 2
 ---
 
+
+{:.no_toc}
+# Requirements for the development and use of virtual labs 
+
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -13,8 +17,6 @@ nav_order: 2
 - TOC
 {:toc}
 </details>
-
-# Requirements for the development and use of virtual labs 
 
 ## Introduction
 

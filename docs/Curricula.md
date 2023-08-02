@@ -4,7 +4,11 @@ layout: default
 nav_order: 3
 ---
 
-{: .no_toc }
+{:.no_toc}
+# Uses of Virtual Labs in Engineering Curricula
+
+
+{:.no_toc}
 <details open markdown="block">
   <summary>
     Table of contents
@@ -15,11 +19,7 @@ nav_order: 3
 </details>
 
 
-# Uses of Virtual Labs in Engineering Curricula
-
-
 ## Design of workshops
-
 
 A Virtual Lab Workshop is a 5-day event attended by mixed groups of participants including lab managers, teachers, university students, and experts. 
 
@@ -534,6 +534,7 @@ understand if this could be a barrier to their learning abilities and
 skills improvement. All 11 participants declared a Very good level of
 English language.
 
+{:.no_toc}
 #### Hard skills
 
 The following results summarise the differences between the perception
@@ -603,6 +604,7 @@ laboratories with try-on of devices.
 <img src="images/curricula/image4.png"
 style="width:6.32308in;height:2.43268in" />
 
+{:.no_toc}
 #### Soft skills
 
 
@@ -623,6 +625,7 @@ average confirmed during the workshop.
 <img src="images/curricula/image5.png"
 style="width:6.68638in;height:3.93366in" />
 
+{:.no_toc}
 #### Engagement
 
 The following results summarise the differences between the perception
@@ -665,6 +668,7 @@ the end of the workshop.
 <img src="images/curricula/image7.png"
 style="width:6.82062in;height:4.03515in" />
 
+{:.no_toc}
 #### Final evaluation
 
 Finally, the students were asked to provide a qualitative evaluation of

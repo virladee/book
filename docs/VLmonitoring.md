@@ -5,6 +5,9 @@ nav_order: 2
 parent: Virtual Labs
 ---
 
+{:.no_toc}
+# Monitoring of the physical labs
+
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -15,7 +18,6 @@ parent: Virtual Labs
 {:toc}
 </details>
 
-# Monitoring of the physical labs
 
 Monitoring of physical labs is included among the key feature of the
 more general Digital Twin architecture, as discussed in the article by Modoni et al. \[1\].
@@ -170,7 +172,7 @@ assets that can:
 <img src="images/VLmonitoring/image2.jpg"
 style="width:6.179in;height:3.38749in" />
 
-*MQTT architecture*
+*General MQTT architecture*
 
 Different programming languages can be used to develop MQTT clients that
 participate in a MQTT communication architecture, e.g. JavaScript and
@@ -190,6 +192,18 @@ architectures:
 -   tutorials on MQTT and related tools, e.g. [this tutorial](http://www.steves-internet-guide.com/using-mqtt-lens/)
 
 -   libraries to develop MQTT components, e.g. [MQTT.js library](https://www.npmjs.com/package/mqtt)
+
+The monitoring can be realized by exploiting the MQTT
+architecture, as shown in the following figure.The Physical Lab
+(PL) plays the role of publisher and the Virtual Lab (VL) plays the role of
+subscriber to the PL topic.
+
+The controller on the side of the physical lab will take care of generating the outcoming messages, while the software tools on the virtual lab side will elaborate the incoming messages.
+
+<img src="images/VLmonitoring/architecture.jpg"
+style="width:6.69306in;height:1.74231in" />
+
+*MQTT-based architecture for dual-way synchronization*
 
 ## OntoGuiWeb
 
@@ -227,65 +241,7 @@ alt="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Lh1dC
 
 *OntoGuiWeb – MQTT Synchronization module interface*
 
-## PERFORM lab example
-
-The PERFORM lab contains two COMAU NS16 robots that can be monitored in
-terms of joint states while a robot is executing a trajectory. During
-the execution of the trajectory, the robot controller can communicate
-the joint state (i.e. position, velocity, force/torque, etc.) that in
-turn can be stored (e.g. in a text-based file) or published (e.g. via
-MQTT). Herein, we take in consideration only the joint position, i.e.
-the rotation angle of the joint.
-
-The joint angles are likely to be measured by sensors or encoders that
-are attached to the robot joints. These sensors can generate data at a
-high rate, potentially several times per second or even faster,
-depending on the specific application and the performance requirements.
-
-The joint positions of the robot in the PERFORM Lab are saved at 10 Hz
-(i.e. one position is stored every 0.1 \[s\]) in a JSON file that
-contains a list of position items, where each item defines the angles of
-the joints in radians \[rad\]. Here below an example of item is shown:
-
-
-```
-{
-"J1": 0.0,
-"J2": 0.0,
-"J3": 1.57,
-"J4": 0.0,
-"J5": -1.57,
-"J6": 0.0,
-"J7": 0.0,
-"J8": 0.0,
-"J9": 0.0,
-"J10": 0.0
-}
-```
-
-
-Each item of the list reports by default the value of 10 joint angles.
-Robot\_1 of PERFORM Lab consists of 6 joints, therefore only joints from
-"J1" to "J6" contain relevant values while the others (from "J7" to
-"J10") will be always set to zero.
-
-An example of robot trajectory can be found in the file
-PERFORM\_trajectory\_example.json that defines a trajectory moving the
-tool along the vertical axis. Using the command “**Load and Start
-Publish**” of OntoGuiWeb – MQTT Synchronization module, the trajectory
-can be published on the selected topic (e.g. “/VL/PERFORM”) via MQTT
-communication, thus emulating what the real robot controller would do.
-Thanks to the “SUBSCRIBE” functionalities of MQTT Synchronization
-module, it is possible to subscribe to the same topic to validate the
-behaviour of the web application. The following figure shows a
-screenshot of OntoGuiWeb while the messages of the trajectory are
-published and received.
-
-<img src="images/VLmonitoring/image4.png"
-style="width:5.07666in;height:7.22322in" />
-
-*OntoGuiWeb – MQTT Synchronization module interface*
-
+An **example of monitoring** is provided for the [PERFORM Lab](./UC_PERFORM#monitoring) use case.
 
 ## References
 

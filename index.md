@@ -8,8 +8,6 @@ nav_order: 1
 
 # VirLaDEE Book
 
-## Introduction
-
 Virladee is a project [funded by the European Commission’s Erasmus + programme](https://erasmus-plus.ec.europa.eu/projects/search/details/2020-1-DK01-KA226-HE-094270). Starting in March 2021, the project involves three partners:
 
 * **University of Southern Denmark** (SDU), Department of Technology and Innovation ([ITI](https://www.sdu.dk/en/om_sdu/institutter_centre/iti))
