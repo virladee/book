@@ -203,7 +203,7 @@ The controller on the side of the physical lab will take care of generating the 
 <img src="images/VLmonitoring/architecture.jpg"
 style="width:6.69306in;height:1.74231in" />
 
-*MQTT-based architecture for dual-way synchronization*
+*MQTT-based architecture for monitoring*
 
 ## OntoGuiWeb
 
